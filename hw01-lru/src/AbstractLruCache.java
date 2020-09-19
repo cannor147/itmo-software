@@ -1,5 +1,3 @@
-package lru;
-
 public abstract class AbstractLruCache<K, V> implements LruCache<K, V> {
     private int capacity;
 

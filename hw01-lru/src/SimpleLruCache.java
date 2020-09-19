@@ -1,5 +1,3 @@
-package lru;
-
 import java.util.HashMap;
 
 public class SimpleLruCache<K, V> extends AbstractLruCache<K, V> {
