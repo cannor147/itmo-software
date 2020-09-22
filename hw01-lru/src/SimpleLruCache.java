@@ -37,6 +37,25 @@ public class SimpleLruCache<K, V> extends AbstractLruCache<K, V> {
         return cacheStorage.size();
     }
 
+    @Override
+    protected void internalAssert() {
+        int listSize = 0;
+        Node<K, V> node = head;
+        while (node != null) {
+            node = node.getNext();
+            listSize++;
+        }
+
+        assert listSize == internalSize();
+        if (listSize == 0) {
+            assert head == null;
+            assert tail == null;
+        } else {
+            assert head != null;
+            assert tail != null;
+        }
+    }
+
     private void update(K key) {
         Node<K, V> node = cacheStorage.get(key);
         if (node == null || node == head) {
