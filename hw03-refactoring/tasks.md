@@ -4,7 +4,7 @@
 
 Скачайте [приложение](https://github.com/akirakozov/software-design/tree/master/java/refactoring). Приложение представляет собой простой web-server, который хранит информацию о товарах и их цене. Поддержаны такие методы:
 
-* /get-products` - посмотреть все товары в базе
+* `/get-products` - посмотреть все товары в базе
 * `/add-product?name=iphone6&price=300` - добавить новый товар
 * `/query?command=sum` - выполнить некоторый запрос с данными в базе
 
