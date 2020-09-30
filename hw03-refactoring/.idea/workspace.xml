@@ -5,19 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="405bcb7e-5a30-4d00-a74a-fa5d9c068d1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hw03-refactoring.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/akirakozov/sd/refactoring/servlet/AbstractServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/akirakozov/sd/refactoring/servlet/AddProductServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/akirakozov/sd/refactoring/servlet/GetProductsServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/akirakozov/sd/refactoring/servlet/QueryServletTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -37,17 +44,132 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cannor147\Education\itmo-software\hw03-refactoring" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.akirakozov.sd.refactoring" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\cannor147\Education\itmo-software\hw03-refactoring\src\main\java" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GetProductsServletTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddProductServletTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw03-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.akirakozov.sd.refactoring.servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.akirakozov.sd.refactoring.servlet" />
+      <option name="MAIN_CLASS_NAME" value="ru.akirakozov.sd.refactoring.servlet.AddProductServletTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddProductServletTest.testAdd2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw03-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.akirakozov.sd.refactoring.servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.akirakozov.sd.refactoring.servlet" />
+      <option name="MAIN_CLASS_NAME" value="ru.akirakozov.sd.refactoring.servlet.AddProductServletTest" />
+      <option name="METHOD_NAME" value="testAdd2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetProductsServletTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw03-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.akirakozov.sd.refactoring.servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.akirakozov.sd.refactoring.servlet" />
+      <option name="MAIN_CLASS_NAME" value="ru.akirakozov.sd.refactoring.servlet.GetProductsServletTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryServletTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw03-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.akirakozov.sd.refactoring.servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.akirakozov.sd.refactoring.servlet" />
+      <option name="MAIN_CLASS_NAME" value="ru.akirakozov.sd.refactoring.servlet.QueryServletTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryServletTest.testOneElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw03-refactoring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.akirakozov.sd.refactoring.servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.akirakozov.sd.refactoring.servlet" />
+      <option name="MAIN_CLASS_NAME" value="ru.akirakozov.sd.refactoring.servlet.QueryServletTest" />
+      <option name="METHOD_NAME" value="testOneElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GetProductsServletTest" />
+        <item itemvalue="JUnit.QueryServletTest" />
+        <item itemvalue="JUnit.QueryServletTest.testOneElement" />
+        <item itemvalue="JUnit.AddProductServletTest" />
+        <item itemvalue="JUnit.AddProductServletTest.testAdd2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,7 +179,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601417067352</updated>
-      <workItem from="1601417068788" duration="231000" />
+      <workItem from="1601417068788" duration="8780000" />
     </task>
     <servers />
   </component>
@@ -65,13 +187,81 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1601417206595">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1601417638242">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1601417206595" />
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1601417638242" />
+    <state x="206" y="254" key="#SQL_Dialects" timestamp="1601425856655">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="206" y="254" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1601425856655" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1601424001734">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601424001734" />
+    <state x="400" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1601421567397">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="400" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1601421567397" />
+    <state x="566" y="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1601421570875">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="294" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1601421570875" />
+    <state x="446" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601422453275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="446" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1601422453275" />
+    <state x="524" y="115" key="#xdebugger.evaluate" timestamp="1601421806783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="524" y="115" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1601421806783" />
+    <state width="1493" height="259" key="GridCell.Tab.0.bottom" timestamp="1601425795126">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="259" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601425795126" />
+    <state width="1493" height="259" key="GridCell.Tab.0.center" timestamp="1601425795126">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="259" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601425795126" />
+    <state width="1493" height="259" key="GridCell.Tab.0.left" timestamp="1601425795126">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="259" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601425795126" />
+    <state width="1493" height="259" key="GridCell.Tab.0.right" timestamp="1601425795126">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="259" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601425795126" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1601421828804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601421828804" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1601421828804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601421828804" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1601421828804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601421828804" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1601421828804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601421828804" />
+    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1601417984769">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1601417984769" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1601420158553">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1601420158553" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1601417298936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601417298936" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601422668831">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601422668831" />
   </component>
 </project>
