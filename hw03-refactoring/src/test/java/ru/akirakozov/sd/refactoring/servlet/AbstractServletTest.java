@@ -1,26 +1,20 @@
 package ru.akirakozov.sd.refactoring.servlet;
 
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import ru.akirakozov.sd.refactoring.dao.ProductDao;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
+
+import static org.mockito.Mockito.mock;
 
 public abstract class AbstractServletTest<S> {
+    private final ProductDao productDao;
+
     protected S servlet;
 
-    @AfterEach
-    @BeforeEach
-    public final void cleanDatabase() throws SQLException {
-        try (Connection c = DriverManager.getConnection("jdbc:sqlite:test.db")) {
-            Statement statement = c.createStatement();
-            statement.executeUpdate("DELETE FROM PRODUCT");
-            statement.close();
-        }
+    protected AbstractServletTest() {
+        this.productDao = mock(ProductDao.class);
     }
 
     @BeforeEach
@@ -32,6 +26,10 @@ public abstract class AbstractServletTest<S> {
 
     protected S getServlet() {
         return servlet;
+    }
+
+    public ProductDao getProductDao() {
+        return productDao;
     }
 
     protected static class TestWriter extends PrintWriter {
