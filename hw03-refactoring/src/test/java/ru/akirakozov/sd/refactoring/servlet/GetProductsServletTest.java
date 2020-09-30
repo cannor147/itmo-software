@@ -37,6 +37,7 @@ public class GetProductsServletTest extends AbstractServletTest<GetProductsServl
         try (Connection c = DriverManager.getConnection("jdbc:sqlite:test.db")) {
             Statement statement = c.createStatement();
             statement.executeUpdate("INSERT INTO PRODUCT (NAME, PRICE) VALUES (\"book\", 599)");
+            statement.close();
         }
 
         HttpServletRequest request = mock(HttpServletRequest.class);
@@ -56,6 +57,7 @@ public class GetProductsServletTest extends AbstractServletTest<GetProductsServl
             statement.executeUpdate("INSERT INTO PRODUCT (NAME, PRICE) VALUES (\"book\", 599)");
             statement.executeUpdate("INSERT INTO PRODUCT (NAME, PRICE) VALUES (\"globe\", 1499)");
             statement.executeUpdate("INSERT INTO PRODUCT (NAME, PRICE) VALUES (\"pen\", 39)");
+            statement.close();
         }
 
         HttpServletRequest request = mock(HttpServletRequest.class);

@@ -19,6 +19,7 @@ public abstract class AbstractServletTest<S> {
         try (Connection c = DriverManager.getConnection("jdbc:sqlite:test.db")) {
             Statement statement = c.createStatement();
             statement.executeUpdate("DELETE FROM PRODUCT");
+            statement.close();
         }
     }
 

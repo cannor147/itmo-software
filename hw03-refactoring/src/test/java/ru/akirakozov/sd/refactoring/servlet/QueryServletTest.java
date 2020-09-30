@@ -30,6 +30,7 @@ public class QueryServletTest extends AbstractServletTest<QueryServlet> {
         try (Connection c = DriverManager.getConnection("jdbc:sqlite:test.db")) {
             Statement statement = c.createStatement();
             statement.executeUpdate("INSERT INTO PRODUCT (NAME, PRICE) VALUES (\"book\", 599)");
+            statement.close();
         }
         testCommands("book 599</br>", "book 599</br>", 599, 1);
     }
@@ -41,6 +42,7 @@ public class QueryServletTest extends AbstractServletTest<QueryServlet> {
             statement.executeUpdate("INSERT INTO PRODUCT (NAME, PRICE) VALUES (\"book\", 599)");
             statement.executeUpdate("INSERT INTO PRODUCT (NAME, PRICE) VALUES (\"globe\", 1499)");
             statement.executeUpdate("INSERT INTO PRODUCT (NAME, PRICE) VALUES (\"pen\", 39)");
+            statement.close();
         }
         testCommands("globe 1499</br>", "pen 39</br>", 599 + 1499 + 39, 3);
     }
